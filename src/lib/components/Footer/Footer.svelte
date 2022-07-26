@@ -69,7 +69,7 @@
 
 				<a
 					class="text-pink-600 hover:text-opacity-75"
-					href="/dribbble"
+					href="/"
 					target="_blank"
 					rel="noopener noreferrer"
 					aria-label="Dribbble"

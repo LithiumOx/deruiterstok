@@ -1,7 +1,6 @@
 <script>
 	import lottie from 'lottie-web';
 	import { onMount } from 'svelte';
-	import About from './about.svelte';
 
 	onMount(() => {
 		lottie.loadAnimation({
