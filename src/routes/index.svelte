@@ -11,7 +11,7 @@
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 
-<aside class="overflow-hidden max-h-[50vh] bg-gray-50 sm:grid sm:grid-cols-2">
+<aside class="overflow-hidden md:max-h-[50vh] bg-gray-50 sm:grid sm:grid-cols-2">
 	<div class="p-8 md:p-12 lg:px-16 lg:py-24">
 		<div class="max-w-xl mx-auto text-center sm:text-left">
 			<h2 class="text-2xl sm:text-xl font-bold text-gray-900 md:text-3xl">De Ruiterstok</h2>
