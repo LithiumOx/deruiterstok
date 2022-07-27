@@ -10,6 +10,8 @@ export async function POST(req: Request): Promise<Response> {
 
 		// Token is valid, so get the user metadata and set it in a cookie.
 		const metadata = await magic.users.getMetadataByToken(didToken);
+		console.log(metadata);
+
 		const cookie = await createSessionCookie(metadata);
 
 		return {
