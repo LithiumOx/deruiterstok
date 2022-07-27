@@ -5,8 +5,11 @@
 // and what to do when importing types
 declare namespace App {
 	interface Locals {
-		user: string;
-		userid: string;
+		user?: {
+			issuer: string;
+			publicAddress: string;
+			email: string;
+		};
 	}
 
 	// interface Platform {}

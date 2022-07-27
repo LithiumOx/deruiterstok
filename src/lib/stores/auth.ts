@@ -27,6 +27,8 @@ export async function login(email: string): Promise<void> {
 
 	if (res.ok) {
 		const data = await res.json();
+		console.log(data);
+
 		store.set(data.user);
 	}
 }

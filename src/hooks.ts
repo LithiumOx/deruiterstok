@@ -12,6 +12,9 @@ export const handle: Handle = async ({ event, resolve }) => {
 	event.locals.user = user;
 	event.locals.userid = user?.publicAdress;
 
+	console.log(event.request.headers.get('cookie'));
+
+
 	const response = await resolve(event);
 
 	// if (!cookies['userid']) {

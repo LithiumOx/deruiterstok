@@ -20,7 +20,7 @@
 	async function login() {
 		try {
 			await auth.login(email);
-			goto('/todos');
+			goto('/dashboard');
 		} catch (err) {
 			console.log(err);
 		}
