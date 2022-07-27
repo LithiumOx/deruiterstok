@@ -1,21 +1,28 @@
 <script>
 	import Logo from './Logo.svelte';
+	import { page } from '$app/stores';
 </script>
 
 <nav class="flex items-center justify-between max-w-3xl p-4 mx-auto">
-	<a class="inline-flex items-center justify-center w-10 h-10 bg-gray-100 rounded-lg" href="/">
+	<a
+		sveltekit:prefetch
+		class="inline-flex items-center justify-center w-10 h-10 bg-gray-100 rounded-lg"
+		href="/"
+	>
 		<Logo />
 	</a>
 
 	<ul class="flex items-center space-x-2 text-sm font-medium text-gray-500">
 		<li class="hidden lg:block">
-			<a class="px-3 py-2 rounded-lg" href="/"> Home </a>
+			<a sveltekit:prefetch class="px-3 py-2 rounded-lg" href="/"> Home </a>
 		</li>
 
-		<li><a class="px-3 py-2 rounded-lg" href="/nieuwsbrief"> Nieuwsbrief </a></li>
+		<li>
+			<a sveltekit:prefetch class="px-3 py-2 rounded-lg" href="/nieuwsbrief"> Nieuwsbrief </a>
+		</li>
 
 		<li>
-			<a class="inline-flex items-center px-3 py-2 rounded-lg" href="/login">
+			<a sveltekit:prefetch class="inline-flex items-center px-3 py-2 rounded-lg" href="/login">
 				Login
 				<svg
 					xmlns="http://www.w3.org/2000/svg"

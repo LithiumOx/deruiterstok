@@ -11,7 +11,7 @@
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 
-<aside class="overflow-hidden md:max-h-[50vh] bg-gray-50 sm:grid sm:grid-cols-2">
+<aside class="overflow-hidden max-h-[50vh] bg-gray-50 rounded-t-lg sm:grid sm:grid-cols-2">
 	<div class="p-8 md:p-12 lg:px-16 lg:py-24">
 		<div class="max-w-xl mx-auto text-center sm:text-left">
 			<h2 class="text-2xl sm:text-xl font-bold text-gray-900 md:text-3xl">De Ruiterstok</h2>
@@ -20,13 +20,13 @@
 				Dit seizoen beginnen we weer sterk bij De Ruiterstok! Van karten tot kinder paintball het
 				gaat allemaal gebeuren!
 				<br /><br /> Wil jij nu ook gezellig meegaan op uitjes en meedoen aan toffe activiteiten? Meld
-				je aan!
+				je nu aan!
 			</p>
 
 			<div class="mt-4 md:mt-8">
 				<a
 					href="#"
-					class="inline-block px-12 py-3 text-sm font-medium text-white transition rounded bg-purple-600 hover:bg-purple-700 focus:outline-none focus:ring focus:ring-yellow-400"
+					class="inline-block px-12 py-3 text-sm font-medium text-white transition rounded bg-purple-600 hover:bg-purple-700 focus:outline-none focus:ring focus:ring-violet-400"
 				>
 					Wordt nu lid!
 				</a>
@@ -37,7 +37,7 @@
 	<img alt="#" src="/images/stock.jpg" class="object-center w-full" />
 </aside>
 
-<section class="bg-violet-200">
+<section class="bg-violet-200 rounded-b-lg">
 	<div class="max-w-screen-xl px-4 py-12 mx-auto md:py-16 sm:px-6 lg:px-8">
 		<div class="max-w-3xl mx-auto text-center">
 			<h2 class="text-3xl font-bold text-gray-900 sm:text-4xl">
